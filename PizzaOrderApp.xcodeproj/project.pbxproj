@@ -11,6 +11,17 @@
 		AD2B89F22AA999340051DBAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B89F12AA999340051DBAC /* ContentView.swift */; };
 		AD2B89F42AA999360051DBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2B89F32AA999360051DBAC /* Assets.xcassets */; };
 		AD2B89F72AA999360051DBAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD2B89F62AA999360051DBAC /* Preview Assets.xcassets */; };
+		AD2B89FF2AA9994A0051DBAC /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B89FE2AA9994A0051DBAC /* Pizza.swift */; };
+		AD2B8A012AA9994F0051DBAC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A002AA9994F0051DBAC /* Order.swift */; };
+		AD2B8A052AA9C0D50051DBAC /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A042AA9C0D50051DBAC /* Webservice.swift */; };
+		AD2B8A082AA9C2AB0051DBAC /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A072AA9C2AB0051DBAC /* OrderListViewModel.swift */; };
+		AD2B8A0D2AA9CBA00051DBAC /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A0C2AA9CBA00051DBAC /* OrderListView.swift */; };
+		AD2B8A102AA9D6B30051DBAC /* CreateOrderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A0F2AA9D6B30051DBAC /* CreateOrderResponse.swift */; };
+		AD2B8A122AA9D7EB0051DBAC /* CreatePizzaOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A112AA9D7EB0051DBAC /* CreatePizzaOrderViewModel.swift */; };
+		AD2B8A142AA9DAF10051DBAC /* PizzaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A132AA9DAF10051DBAC /* PizzaViewModel.swift */; };
+		AD2B8A162AA9DE940051DBAC /* AddPizzaOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B8A152AA9DE940051DBAC /* AddPizzaOrderView.swift */; };
+		ADFF06482AAA4954006D1282 /* OrderTotalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF06472AAA4954006D1282 /* OrderTotalView.swift */; };
+		ADFF064A2AAAE1E7006D1282 /* PizzaCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFF06492AAAE1E7006D1282 /* PizzaCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		AD2B89F12AA999340051DBAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD2B89F32AA999360051DBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD2B89F62AA999360051DBAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD2B89FE2AA9994A0051DBAC /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		AD2B8A002AA9994F0051DBAC /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		AD2B8A042AA9C0D50051DBAC /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		AD2B8A072AA9C2AB0051DBAC /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		AD2B8A0C2AA9CBA00051DBAC /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
+		AD2B8A0F2AA9D6B30051DBAC /* CreateOrderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderResponse.swift; sourceTree = "<group>"; };
+		AD2B8A112AA9D7EB0051DBAC /* CreatePizzaOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePizzaOrderViewModel.swift; sourceTree = "<group>"; };
+		AD2B8A132AA9DAF10051DBAC /* PizzaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaViewModel.swift; sourceTree = "<group>"; };
+		AD2B8A152AA9DE940051DBAC /* AddPizzaOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPizzaOrderView.swift; sourceTree = "<group>"; };
+		ADFF06472AAA4954006D1282 /* OrderTotalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTotalView.swift; sourceTree = "<group>"; };
+		ADFF06492AAAE1E7006D1282 /* PizzaCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,11 @@
 		AD2B89EE2AA999340051DBAC /* PizzaOrderApp */ = {
 			isa = PBXGroup;
 			children = (
+				AD2B8A092AA9CAB80051DBAC /* Views */,
+				AD2B8A062AA9C29C0051DBAC /* View Models */,
+				AD2B8A022AA9C09F0051DBAC /* Services */,
+				AD2B89FD2AA999410051DBAC /* Models */,
 				AD2B89EF2AA999340051DBAC /* PizzaOrderAppApp.swift */,
-				AD2B89F12AA999340051DBAC /* ContentView.swift */,
 				AD2B89F32AA999360051DBAC /* Assets.xcassets */,
 				AD2B89F52AA999360051DBAC /* Preview Content */,
 			);
@@ -65,6 +90,46 @@
 				AD2B89F62AA999360051DBAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD2B89FD2AA999410051DBAC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B89FE2AA9994A0051DBAC /* Pizza.swift */,
+				AD2B8A002AA9994F0051DBAC /* Order.swift */,
+				AD2B8A0F2AA9D6B30051DBAC /* CreateOrderResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD2B8A022AA9C09F0051DBAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B8A042AA9C0D50051DBAC /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AD2B8A062AA9C29C0051DBAC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B8A072AA9C2AB0051DBAC /* OrderListViewModel.swift */,
+				AD2B8A112AA9D7EB0051DBAC /* CreatePizzaOrderViewModel.swift */,
+				AD2B8A132AA9DAF10051DBAC /* PizzaViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		AD2B8A092AA9CAB80051DBAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD2B89F12AA999340051DBAC /* ContentView.swift */,
+				AD2B8A0C2AA9CBA00051DBAC /* OrderListView.swift */,
+				AD2B8A152AA9DE940051DBAC /* AddPizzaOrderView.swift */,
+				ADFF06472AAA4954006D1282 /* OrderTotalView.swift */,
+				ADFF06492AAAE1E7006D1282 /* PizzaCellView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +204,17 @@
 			files = (
 				AD2B89F22AA999340051DBAC /* ContentView.swift in Sources */,
 				AD2B89F02AA999340051DBAC /* PizzaOrderAppApp.swift in Sources */,
+				AD2B8A162AA9DE940051DBAC /* AddPizzaOrderView.swift in Sources */,
+				AD2B8A012AA9994F0051DBAC /* Order.swift in Sources */,
+				AD2B8A142AA9DAF10051DBAC /* PizzaViewModel.swift in Sources */,
+				AD2B8A122AA9D7EB0051DBAC /* CreatePizzaOrderViewModel.swift in Sources */,
+				AD2B8A102AA9D6B30051DBAC /* CreateOrderResponse.swift in Sources */,
+				AD2B8A0D2AA9CBA00051DBAC /* OrderListView.swift in Sources */,
+				AD2B8A082AA9C2AB0051DBAC /* OrderListViewModel.swift in Sources */,
+				ADFF064A2AAAE1E7006D1282 /* PizzaCellView.swift in Sources */,
+				AD2B8A052AA9C0D50051DBAC /* Webservice.swift in Sources */,
+				ADFF06482AAA4954006D1282 /* OrderTotalView.swift in Sources */,
+				AD2B89FF2AA9994A0051DBAC /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
